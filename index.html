@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="KM Beauty Artist – makijaż permanentny, stylizacja brwi i rzęs, henna, zabiegi na twarz. Ustroń, ul. 3 Maja 48." />
+  <title>KM Beauty Artist – Katarzyna Mościńska</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/img/kmczarny.png" />
+  <link rel="apple-touch-icon" href="/img/kmczarny.png" />
+
+  <!-- Fonty -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- ============================================================
+     NAWIGACJA
+     ============================================================ -->
+<nav>
+  <div class="nav-inner">
+
+    <!-- Desktop menu -->
+    <ul class="nav-links">
+      <li>
+        <a href="makijaz-permanentny-brwi.html">Makijaż permanentny brwi</a>
+      </li>
+      <li>
+        <a href="makijaze-okolicznosciowe.html">Makijaże okolicznościowe</a>
+      </li>
+
+      <li>
+        <a href="#">
+          Stylizacja rzęs i brwi
+          <span class="nav-caret"></span>
+        </a>
+        <ul class="dropdown">
+          <li><a href="laminacja-rzes.html">Laminacja rzęs</a></li>
+          <li><a href="laminacja-brwi.html">Laminacja brwi</a></li>
+          <li><a href="henna.html">Henna</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="#">
+          Usuwanie pigmentu
+          <span class="nav-caret"></span>
+        </a>
+        <ul class="dropdown">
+          <li><a href="makijaz-permanentny.html">Makijaż permanentny</a></li>
+          <li><a href="tatuas.html">Tatuaż</a></li>
+        </ul>
+      </li>
+
+      <li><a href="zabiegi-na-twarz.html">Zabiegi na twarz</a></li>
+      <li><a href="#cennik">Cennik</a></li>
+
+      <li>
+        <a
+          href="https://booksy.com/pl-pl/dl/show-business/277077"
+          target="_blank" rel="noopener"
+          class="nav-cta"
+        >Zarezerwuj termin</a>
+      </li>
+    </ul>
+
+    <!-- Hamburger (widoczny tylko mobile) -->
+    <button
+      id="hamburger"
+      class="nav-hamburger"
+      aria-label="Otwórz menu"
+      aria-expanded="false"
+      aria-controls="nav-mobile"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</nav>
+
+<!-- Mobile drawer -->
+<div id="nav-mobile" class="nav-mobile" role="dialog" aria-label="Menu nawigacyjne">
+  <ul>
+    <li>
+      <a href="makijaz-permanentny-brwi.html">Makijaż permanentny brwi</a>
+    </li>
+    <li>
+      <a href="makijaze-okolicznosciowe.html">Makijaże okolicznościowe</a>
+    </li>
+
+    <!-- Stylizacja rzęs i brwi -->
+    <li>
+      <a href="#" class="mobile-parent">
+        Stylizacja rzęs i brwi
+        <span class="toggle-icon">&#8964;</span>
+      </a>
+      <ul class="mobile-sub">
+        <li><a href="laminacja-rzes.html">Laminacja rzęs</a></li>
+        <li><a href="laminacja-brwi.html">Laminacja brwi</a></li>
+        <li><a href="henna.html">Henna</a></li>
+      </ul>
+    </li>
+
+    <!-- Usuwanie pigmentu -->
+    <li>
+      <a href="#" class="mobile-parent">
+        Usuwanie pigmentu
+        <span class="toggle-icon">&#8964;</span>
+      </a>
+      <ul class="mobile-sub">
+        <li><a href="makijaz-permanentny.html">Makijaż permanentny</a></li>
+        <li><a href="tatuas.html">Tatuaż</a></li>
+      </ul>
+    </li>
+
+    <li><a href="zabiegi-na-twarz.html">Zabiegi na twarz</a></li>
+    <li><a href="#cennik">Cennik</a></li>
+
+    <li>
+      <a
+        href="https://booksy.com/pl-pl/dl/show-business/277077"
+        target="_blank" rel="noopener"
+        class="mobile-cta"
+      >Zarezerwuj termin</a>
+    </li>
+  </ul>
+</div>
+
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-ring hero-ring-1"></div>
+  <div class="hero-ring hero-ring-2"></div>
+
+  <div class="inner" style="position:relative; z-index:2; width:100%;">
+    <div class="hero-layout">
+
+      <!-- LEWA: tekst -->
+      <div class="hero-content">
+
+        <!-- Logo nad eyebrow -->
+        <div class="hero-logo">
+          <img src="/img/kmczarnytransparent.png" alt="KM Beauty Artist" />
+        </div>
+
+        <p class="hero-eyebrow">Salon Kosmetyczny &amp; Studio Urody · Ustroń</p>
+
+        <h1 class="hero-title">
+          Naturalnie piękna<br>
+          <em>każdego dnia</em>
+        </h1>
+
+        <p class="hero-desc">
+          Katarzyna Mościńska – dyplomowany kosmetolog specjalizujący się
+          w makijażu permanentnym, stylizacji brwi i rzęs oraz zabiegach
+          pielęgnacyjnych. Profesjonalizm i indywidualne podejście w każdym zabiegu.
+        </p>
+
+        <div class="hero-btns">
+          <a href="#uslugi" class="btn-primary"><span>Nasze usługi</span></a>
+          <a
+            href="https://booksy.com/pl-pl/dl/show-business/277077"
+            target="_blank" rel="noopener"
+            class="btn-outline"
+          >Zarezerwuj wizytę</a>
+        </div>
+
+      </div><!-- /hero-content -->
+
+      <!-- PRAWA: zdjęcie z gradientem -->
+      <div class="hero-photo-wrap">
+        <img
+          src="/img/welcome.png"
+          alt="Katarzyna Mościńska – KM Beauty Artist"
+          class="hero-photo"
+        />
+        <div class="hero-photo-fade"></div>
+        <div class="hero-photo-fade-side"></div>
+      </div>
+
+    </div><!-- /hero-layout -->
+  </div>
+
+  <!-- Scroll hint -->
+  <div class="inner hero-scroll">
+    <span class="hero-scroll-line"></span>
+    Przewiń
+  </div>
+</section>
+
+
+<!-- ============================================================
+     PASEK SCROLLUJĄCY
+     ============================================================ -->
+<div class="strip" aria-hidden="true">
+  <div class="strip-inner">
+    <span>✦ Makijaż permanentny brwi</span>
+    <span>✦ Laminacja rzęs</span>
+    <span>✦ Henna pudrowa</span>
+    <span>✦ Zabiegi na twarz</span>
+    <span>✦ Makijaże okolicznościowe</span>
+    <span>✦ Laminacja brwi</span>
+    <span>✦ Usuwanie pigmentu</span>
+    <span>✦ Studio urody · Ustroń</span>
+    <span>✦ Makijaż permanentny brwi</span>
+    <span>✦ Laminacja rzęs</span>
+    <span>✦ Henna pudrowa</span>
+    <span>✦ Zabiegi na twarz</span>
+    <span>✦ Makijaże okolicznościowe</span>
+    <span>✦ Laminacja brwi</span>
+    <span>✦ Usuwanie pigmentu</span>
+    <span>✦ Studio urody · Ustroń</span>
+  </div>
+</div>
+
+
+<!-- ============================================================
+     O MNIE
+     ============================================================ -->
+<section id="about">
+  <div class="inner">
+    <div class="about-grid">
+
+      <div class="about-img-wrap reveal">
+        <div class="about-img-frame"></div>
+        <img
+          src="https://kmbeautyartist.pl/img/descriptionMe.JPG"
+          alt="Katarzyna Mościńska – kosmetolog"
+          class="about-img"
+        />
+        <div class="about-badge">
+          <strong>8+</strong>
+          <span>lat doświadczenia</span>
+        </div>
+      </div>
+
+      <div class="about-text reveal">
+        <p class="section-tag">O mnie</p>
+        <h2 class="section-title">
+          Katarzyna<br>Mościńska<br>
+          <em>Beauty Artist</em>
+        </h2>
+        <p>
+          Jestem dyplomowanym kosmetologiem, specjalizującym się w wizażu
+          i kreowaniu wizerunku. Kosmetologia to moja pasja, która towarzyszy
+          mi od wielu lat i stała się fundamentem mojej kariery zawodowej.
+        </p>
+        <p>
+          Moje doświadczenie wzbogacam licznymi kursami kierunkowymi,
+          w tym zaawansowanymi szkoleniami z zakresu makijażu permanentnego.
+          Nieustannie poszerzam wiedzę i doskonalę umiejętności, aby oferować
+          usługi zgodne z najnowszymi trendami.
+        </p>
+        <p>
+          W moim salonie możesz liczyć na indywidualne podejście,
+          profesjonalizm oraz najwyższą jakość zabiegów. Zapraszam – czas dla Ciebie!
+        </p>
+
+        <div class="about-stats">
+          <div>
+            <strong class="stat-num">500+</strong>
+            <span class="stat-label">zadowolonych klientek</span>
+          </div>
+          <div>
+            <strong class="stat-num">8</strong>
+            <span class="stat-label">rodzajów zabiegów</span>
+          </div>
+          <div>
+            <strong class="stat-num">100%</strong>
+            <span class="stat-label">certyfikowanych metod</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     USŁUGI – KAFELKI
+     ============================================================ -->
+<section id="uslugi">
+  <div class="inner">
+
+    <div class="services-header reveal">
+      <p class="section-tag center">Usługi</p>
+      <h2 class="section-title">Nasze <em>specjalizacje</em></h2>
+      <p class="section-desc">
+        Profesjonalne zabiegi wykonywane z precyzją i pasją.
+        Kliknij, aby dowiedzieć się więcej.
+      </p>
+    </div>
+
+    <div class="services-grid reveal">
+
+      <a href="makijaz-permanentny-brwi.html" class="tile tile-1">
+        <div class="tile-placeholder"></div>
+        <div class="tile-overlay"></div>
+        <div class="tile-content">
+          <!-- <span class="tile-num">01</span> -->
+          <span class="tile-name">Makijaż permanentny brwi</span>
+          <span class="tile-arrow">Dowiedz się więcej →</span>
+        </div>
+      </a>
+
+      <a href="makijaze-okolicznosciowe.html" class="tile tile-2">
+        <div class="tile-placeholder"></div>
+        <div class="tile-overlay"></div>
+        <div class="tile-content">
+          <!-- <span class="tile-num">02</span> -->
+          <span class="tile-name">Makijaże okolicznościowe</span>
+          <span class="tile-arrow">Dowiedz się więcej →</span>
+        </div>
+      </a>
+
+      <a href="laminacja-rzes.html" class="tile tile-3">
+        <div class="tile-placeholder"></div>
+        <div class="tile-overlay"></div>
+        <div class="tile-content">
+          <!-- <span class="tile-num">03</span> -->
+          <span class="tile-name">Laminacja rzęs</span>
+          <span class="tile-arrow">Dowiedz się więcej →</span>
+        </div>
+      </a>
+
+      <a href="laminacja-brwi.html" class="tile tile-4">
+        <div class="tile-placeholder"></div>
+        <div class="tile-overlay"></div>
+        <div class="tile-content">
+          <!-- <span class="tile-num">04</span> -->
+          <span class="tile-name">Laminacja brwi</span>
+          <span class="tile-arrow">Dowiedz się więcej →</span>
+        </div>
+      </a>
+
+      <a href="henna.html" class="tile tile-5">
+        <div class="tile-placeholder"></div>
+        <div class="tile-overlay"></div>
+        <div class="tile-content">
+          <!-- <span class="tile-num">05</span> -->
+          <span class="tile-name">Henna pudrowa</span>
+          <span class="tile-arrow">Dowiedz się więcej →</span>
+        </div>
+      </a>
+
+      <a href="makijaz-permanentny.html" class="tile tile-6">
+        <div class="tile-placeholder"></div>
+        <div class="tile-overlay"></div>
+        <div class="tile-content">
+          <!-- <span class="tile-num">06</span> -->
+          <span class="tile-name">Makijaż permanentny</span>
+          <span class="tile-arrow">Dowiedz się więcej →</span>
+        </div>
+      </a>
+
+      <a href="tatuas.html" class="tile tile-7">
+        <div class="tile-placeholder"></div>
+        <div class="tile-overlay"></div>
+        <div class="tile-content">
+          <!-- <span class="tile-num">07</span> -->
+          <span class="tile-name">Tatuaż</span>
+          <span class="tile-arrow">Dowiedz się więcej →</span>
+        </div>
+      </a>
+
+      <a href="zabiegi-na-twarz.html" class="tile tile-8">
+        <div class="tile-placeholder"></div>
+        <div class="tile-overlay"></div>
+        <div class="tile-content">
+          <!-- <span class="tile-num">08</span> -->
+          <span class="tile-name">Zabiegi na twarz</span>
+          <span class="tile-arrow">Dowiedz się więcej →</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     OPINIE
+     ============================================================ -->
+<section id="opinie">
+  <div class="inner section-header reveal">
+    <p class="section-tag">Opinie klientek</p>
+    <h2 class="section-title">Co mówią o nas<br><em>nasze klientki</em></h2>
+  </div>
+
+  <div style="overflow:hidden; margin-top:54px;">
+    <div class="reviews-track">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">„Najlepszy makijaż permanentny brwi w okolicy! Efekt naturalny i trwały – dokładnie to, o czym marzyłam."</p>
+        <span class="review-author">— Anna K.</span>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">„Laminacja rzęs zrobiła cuda. Profesjonalizm na najwyższym poziomie, studio jest bardzo przytulne."</p>
+        <span class="review-author">— Marta W.</span>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">„Przyszłam na makijaż ślubny i byłam zachwycona – Pani Katarzyna słucha i rozumie, czego się chce."</p>
+        <span class="review-author">— Karolina S.</span>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">„Henna pudrowa wygląda fenomenalnie. Na pewno wrócę na zabiegi na twarz – bardzo polecam!"</p>
+        <span class="review-author">— Joanna P.</span>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">„Makijaż permanentny – efekt powyżej oczekiwań. Dyskretnie, profesjonalnie, z ogromną dbałością o detal."</p>
+        <span class="review-author">— Natalia R.</span>
+      </div>
+      <!-- duplikat dla pętli -->
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">„Najlepszy makijaż permanentny brwi w okolicy! Efekt naturalny i trwały – dokładnie to, o czym marzyłam."</p>
+        <span class="review-author">— Anna K.</span>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">„Laminacja rzęs zrobiła cuda. Profesjonalizm na najwyższym poziomie, studio jest bardzo przytulne."</p>
+        <span class="review-author">— Marta W.</span>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">„Przyszłam na makijaż ślubny i byłam zachwycona – Pani Katarzyna słucha i rozumie, czego się chce."</p>
+        <span class="review-author">— Karolina S.</span>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">„Henna pudrowa wygląda fenomenalnie. Na pewno wrócę na zabiegi na twarz – bardzo polecam!"</p>
+        <span class="review-author">— Joanna P.</span>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">„Makijaż permanentny – efekt powyżej oczekiwań. Dyskretnie, profesjonalnie, z ogromną dbałością o detal."</p>
+        <span class="review-author">— Natalia R.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     CENNIK
+     ============================================================ -->
+<section id="cennik">
+  <div class="inner">
+
+    <div class="cennik-header reveal">
+      <p class="section-tag center">Cennik</p>
+      <h2 class="section-title">Przejrzyste <em>ceny</em></h2>
+      <p>Wszystkie ceny są orientacyjne i zależą od indywidualnych potrzeb.</p>
+    </div>
+
+    <div class="cennik-grid reveal">
+
+      <!-- BRWI I RZĘSY -->
+      <div class="cennik-item">
+        <span class="cennik-cat">Brwi i rzęsy</span>
+        <span class="cennik-service">Henna pudrowa</span>
+        <p class="cennik-price">130 <span>zł</span></p>
+      </div>
+
+      <div class="cennik-item">
+        <span class="cennik-cat">Brwi i rzęsy</span>
+        <span class="cennik-service">Henna brwi i rzęs z regulacją</span>
+        <p class="cennik-price">70 <span>zł</span></p>
+      </div>
+
+      <div class="cennik-item">
+        <span class="cennik-cat">Brwi i rzęsy</span>
+        <span class="cennik-service">Laminacja brwi i rzęs</span>
+        <p class="cennik-price">220 <span>zł</span></p>
+      </div>
+
+      <!-- MAKIJAŻ -->
+      <div class="cennik-item">
+        <span class="cennik-cat">Makijaż</span>
+        <span class="cennik-service">Makijaż okolicznościowy / ślubny</span>
+        <p class="cennik-price">200 <span>zł</span></p>
+      </div>
+
+      <!-- MANICURE -->
+      <div class="cennik-item">
+        <span class="cennik-cat">Manicure</span>
+        <span class="cennik-service">Hybrydowy - kolor</span>
+        <p class="cennik-price">120 <span>zł</span></p>
+      </div>
+
+      <div class="cennik-item">
+        <span class="cennik-cat">Manicure</span>
+        <span class="cennik-service">Hybrydowy - baza</span>
+        <p class="cennik-price">110 <span>zł</span></p>
+      </div>
+
+      <div class="cennik-item">
+        <span class="cennik-cat">Manicure</span>
+        <span class="cennik-service">Żelowy - uzupełnienie</span>
+        <p class="cennik-price">150 <span>zł</span></p>
+      </div>
+
+      <div class="cennik-item">
+        <span class="cennik-cat">Manicure</span>
+        <span class="cennik-service">Klasyczny</span>
+        <p class="cennik-price">70 <span>zł</span></p>
+      </div>
+
+      <!-- MAKIJAŻ PERMANENTNY -->
+      <div class="cennik-item">
+        <span class="cennik-cat">Permanentny</span>
+        <span class="cennik-service">Makijaż permanentny ombre</span>
+        <p class="cennik-price">900 <span>zł</span></p>
+      </div>
+
+      <div class="cennik-item">
+        <span class="cennik-cat">Permanentny</span>
+        <span class="cennik-service">Usuwanie laserowe</span>
+        <p class="cennik-price">200 <span>zł</span></p>
+      </div>
+
+      <!-- PIELĘGNACJA TWARZY -->
+      <div class="cennik-item">
+        <span class="cennik-cat">Pielęgnacja twarzy</span>
+        <span class="cennik-service">Peeling węglowy - oczyszczenie i ujędrnienie</span>
+        <p class="cennik-price">240 <span>zł</span></p>
+      </div>
+
+      <div class="cennik-item">
+        <span class="cennik-cat">Pielęgnacja twarzy</span>
+        <span class="cennik-service">Peeling enzymatyczny - nawilżenie i blask</span>
+        <p class="cennik-price">120 <span>zł</span></p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     DOJAZD / MAPA
+     ============================================================ -->
+<section id="dojazd">
+  <div class="inner">
+    <div class="dojazd-grid">
+
+      <div class="dojazd-info reveal">
+        <p class="section-tag">Jak do nas dojechać</p>
+        <h2 class="section-title">Odwiedź nasze <em>studio</em></h2>
+        <p>
+          Znajdziesz nas w sercu Ustronia. Łatwy dojazd samochodem
+          i komunikacją miejską – zaplanuj wizytę bez stresu i pozwól,
+          żebyśmy zadbały o resztę.
+        </p>
+
+        <ul class="contact-list">
+          <li class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <span class="contact-label">Adres</span>
+              <p class="contact-value">ul. 3 Maja 48, 43-450 Ustroń</p>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <span class="contact-label">Telefon</span>
+              <p class="contact-value">
+                <a href="tel:+48884511686">884 511 686</a>
+              </p>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="contact-icon">✉</div>
+            <div>
+              <span class="contact-label">E-mail</span>
+              <p class="contact-value">
+                <a href="mailto:Katarzynamoscinska@kmbeautyartist.pl">
+                  Katarzynamoscinska@kmbeautyartist.pl
+                </a>
+              </p>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="contact-icon">🕐</div>
+            <div>
+              <span class="contact-label">Godziny otwarcia</span>
+              <p class="contact-value">
+                Wt – Pt: 9:00 – 18:00 &nbsp;|&nbsp; Sob: 9:00 – 14:00<br>
+                <small style="color:var(--muted);font-size:0.8em;">Pon &amp; Nd: nieczynne</small>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="map-wrap reveal">
+        <div class="map-frame"></div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.0!2d18.8255!3d49.7194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716c7ea4e4d1f67%3A0x6a5b5a5b5a5b5a5b!2sul.%203%20Maja%2048%2C%2043-450%20Ustr%C3%B3%C5%84!5e0!3m2!1spl!2spl!4v1234567890"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Mapa dojazdu – KM Beauty Artist, Ustroń"
+        ></iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     STOPKA
+     ============================================================ -->
+<footer>
+  <div class="inner">
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <!-- Favicon (KM monogram) jako logo stopki -->
+          <img src="/img/kmbialytransaprent.png" alt="KM Beauty Artist" />
+        </div>
+        <p>
+          Profesjonalne studio kosmetyczne w Ustroniu specjalizujące się
+          w makijażu permanentnym, stylizacji rzęs i brwi oraz zabiegach
+          pielęgnacyjnych.
+        </p>
+        <div class="footer-socials">
+          <a
+            href="https://www.facebook.com/katarzynamoscinskacosmetology"
+            target="_blank" rel="noopener"
+            class="social-btn" title="Facebook"
+          >FB</a>
+          <a
+            href="https://www.instagram.com/katarzynamoscinska_beauty"
+            target="_blank" rel="noopener"
+            class="social-btn" title="Instagram"
+          >IG</a>
+          <a
+            href="https://booksy.com/pl-pl/dl/show-business/277077"
+            target="_blank" rel="noopener"
+            class="social-btn" title="Booksy"
+          >B</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Usługi</h4>
+        <ul>
+          <li><a href="makijaz-permanentny-brwi.html">Makijaż perm. brwi</a></li>
+          <li><a href="makijaze-okolicznosciowe.html">Makijaże okolicznościowe</a></li>
+          <li><a href="laminacja-rzes.html">Laminacja rzęs</a></li>
+          <li><a href="laminacja-brwi.html">Laminacja brwi</a></li>
+          <li><a href="henna.html">Henna pudrowa</a></li>
+          <li><a href="makijaz-permanentny.html">Makijaż permanentny</a></li>
+          <li><a href="tatuas.html">Tatuaż</a></li>
+          <li><a href="zabiegi-na-twarz.html">Zabiegi na twarz</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Studio</h4>
+        <ul>
+          <li><a href="#about">O mnie</a></li>
+          <li><a href="#cennik">Cennik</a></li>
+          <li><a href="#opinie">Opinie</a></li>
+          <li><a href="#dojazd">Kontakt</a></li>
+          <li>
+            <a href="https://booksy.com/pl-pl/dl/show-business/277077"
+               target="_blank" rel="noopener">Rezerwacja online</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:+48884511686">884 511 686</a></li>
+          <li>
+            <a href="mailto:Katarzynamoscinska@kmbeautyartist.pl">
+              Katarzynamoscinska<br>@kmbeautyartist.pl
+            </a>
+          </li>
+          <li>ul. 3 Maja 48</li>
+          <li>43-450 Ustroń</li>
+        </ul>
+        <p class="footer-hours">
+          Wt – Pt: 9:00 – 18:00<br>
+          Sobota: 9:00 – 15:00<br>
+          Pon &amp; Nd: nieczynne
+        </p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 KM Beauty Artist – Katarzyna Mościńska. Wszelkie prawa zastrzeżone.</p>
+      <p>
+        <a href="#">Polityka prywatności</a>
+        &nbsp;·&nbsp;
+        <a href="#">RODO</a>
+        &nbsp;·&nbsp;
+        <a href="#">Regulamin</a>
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- Skrypty -->
+<script src="main.js"></script>
+
+</body>
+</html>
